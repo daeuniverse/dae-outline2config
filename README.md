@@ -1,6 +1,6 @@
 # dae-outline2config
 
-This project is used to generate dae configuration, which is useful for GUI programmer.
+This project is used to generate dae configuration, which is useful for GUI project.
 
 ## Usage
 
@@ -12,7 +12,7 @@ dae export outline > outline.json
 
 Fill `value` into corresponding json units, and generate configuration using `class Marshaller`. See more at [marshaller_test.js](marshaller_test.js).
 
-It is convenient to use it in a lightweight JavaScript VM in other languages (Python, C++, etc.).
+It is also convenient to use it in a lightweight JavaScript VM in other languages (Python, C++, etc.). Go project can use [v2rayA/dae.config](https://github.com/v2rayA/dae/blob/main/config/marshal.go) without outline.
 
 ## Notice
 
